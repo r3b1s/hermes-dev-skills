@@ -1,0 +1,39 @@
+{
+  "name": "hermes-profile-architecture",
+  "version": "0.1.0",
+  "abstract": "Comprehensive reference for Hermes Agent profiles — multi-profile isolation model, creation and lifecycle, HERMES_HOME resolution, CLI subcommands, config.yaml and SOUL.md, wrapper aliases, sticky active profile, profile descriptions and kanban orchestrator, export/import, rename, alias management, profile-scoped auth and credential shadowing, profile distributions (install/update/info), gateway multiplexing, and the s6 container service model.",
+  "references": [
+    {
+      "title": "Hermes Agent",
+      "url": "https://github.com/earendil-works/hermes-agent"
+    },
+    {
+      "title": "profiles.py",
+      "path": "hermes_cli/profiles.py"
+    },
+    {
+      "title": "profile_distribution.py",
+      "path": "hermes_cli/profile_distribution.py"
+    },
+    {
+      "title": "profile_describer.py",
+      "path": "hermes_cli/profile_describer.py"
+    },
+    {
+      "title": "subcommands/profile.py",
+      "path": "hermes_cli/subcommands/profile.py"
+    },
+    {
+      "title": "auth.py",
+      "path": "hermes_cli/auth.py"
+    },
+    {
+      "title": "config.py",
+      "path": "hermes_cli/config.py"
+    },
+    {
+      "title": "default_soul.py",
+      "path": "hermes_cli/default_soul.py"
+    }
+  ]
+}
