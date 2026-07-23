@@ -1,7 +1,7 @@
 # hermes-dev-skills
 
 A library of agent skills for developing with the
-[Hermes Agent](https://github.com/earendil-works/hermes-agent) in mind.
+[Hermes Agent](https://github.com/nousresearch/hermes-agent) in mind.
 Memory providers, curator logic, deterministic auto-triggers, profile
 distributions, REST API integration — everything an agent needs to build on
 top of Hermes.
